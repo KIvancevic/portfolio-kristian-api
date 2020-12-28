@@ -16,7 +16,7 @@ exports.checkJwt = jwt({
     jwksUri: 'https://kristianivancevic.eu.auth0.com/.well-known/jwks.json'
   }),
   audience: 'https://kristianivancevic.eu.auth0.com/api/v2/',
-  issuer: 'https://kristianivancevic.eu.auth0.com',
+  issuer: 'https://kristianivancevic.eu.auth0.com/',
   algorithms: ['RS256']
 });
 
